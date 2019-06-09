@@ -7,7 +7,7 @@
     <SheetIdentifierTracking />
     <WindowsPersistSimpleIdentifiers />
   </document-format-change-manifest>
-  <repository-location id='Test_15600487383980' path='/workbooks' revision='1.0' />
+  <repository-location id='Test_15600487383980' path='/workbooks' revision='1.3' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -496,10 +496,10 @@
     </action>
     <action caption='Highlight 2 (generated)' name='[Action2]'>
       <activation auto-clear='true' type='on-select' />
-      <source dashboard='Gun Laws' type='sheet' />
+      <source dashboard='Deaths vs Gun Laws' type='sheet' />
       <command command='tsc:brush'>
         <param name='field-captions' value='Controlling Party' />
-        <param name='target' value='Gun Laws' />
+        <param name='target' value='Deaths vs Gun Laws' />
       </command>
     </action>
   </actions>
@@ -1544,16 +1544,16 @@
     </worksheet>
   </worksheets>
   <dashboards>
-    <dashboard name='Gun Laws'>
+    <dashboard name='Deaths vs Gun Laws'>
       <style />
-      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' preset-index='1' sizing-mode='fixed' />
       <zones>
         <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
           <zone h='98000' id='12' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
             <zone h='98000' id='10' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
               <zone h='98000' id='7' param='horz' type='layout-flow' w='98400' x='800' y='1000'>
                 <zone h='98000' id='5' type='layout-basic' w='98400' x='800' y='1000'>
-                  <zone h='84870' id='3' name='GunDeaths vs GunControlLaws' w='98400' x='800' y='1000'>
+                  <zone h='87965' id='3' name='GunDeaths vs GunControlLaws' w='98400' x='800' y='1000'>
                     <zone-style>
                       <format attr='border-color' value='#000000' />
                       <format attr='border-style' value='none' />
@@ -1561,16 +1561,16 @@
                       <format attr='margin' value='4' />
                     </zone-style>
                   </zone>
-                  <zone forceUpdate='true' h='13130' id='13' type='text' w='98400' x='800' y='85870'>
+                  <zone forceUpdate='true' h='10035' id='13' type='text' w='98400' x='800' y='88965'>
                     <formatted-text>
                       <run>Excluded District of Columbia &#10;</run>
-                      <run bold='true' fontcolor='#000000' fontsize='12'>P-value:        </run>
-                      <run fontcolor='#000000' fontsize='12'>&lt; 0.0001</run>
+                      <run bold='true' fontcolor='#000000'>P-value:        </run>
+                      <run fontcolor='#000000'>&lt; 0.0001</run>
                       <run>Æ&#10;</run>
-                      <run bold='true' fontcolor='#000000' fontsize='12'>R-Squared</run>
-                      <run fontcolor='#000000' fontsize='12'>:  0.6091</run>
+                      <run bold='true' fontcolor='#000000'>R-Squared</run>
+                      <run fontcolor='#000000'>:  0.6091</run>
                       <run>Æ&#10;</run>
-                      <run fontcolor='#000000' fontsize='12'>The gun ownership and gun deaths reported are for year 2016.</run>
+                      <run fontcolor='#000000'>The gun ownership and gun deaths reported are for year 2016.</run>
                       <run>Æ&#10;</run>
                     </formatted-text>
                     <zone-style>
@@ -1629,13 +1629,13 @@
                 <zone forceUpdate='true' h='13130' id='13' type='text' w='98400' x='800' y='85870'>
                   <formatted-text>
                     <run>Excluded District of Columbia &#10;</run>
-                    <run bold='true' fontcolor='#000000' fontsize='12'>P-value:        </run>
-                    <run fontcolor='#000000' fontsize='12'>&lt; 0.0001</run>
+                    <run bold='true' fontcolor='#000000'>P-value:        </run>
+                    <run fontcolor='#000000'>&lt; 0.0001</run>
                     <run>Æ&#10;</run>
-                    <run bold='true' fontcolor='#000000' fontsize='12'>R-Squared</run>
-                    <run fontcolor='#000000' fontsize='12'>:  0.6091</run>
+                    <run bold='true' fontcolor='#000000'>R-Squared</run>
+                    <run fontcolor='#000000'>:  0.6091</run>
                     <run>Æ&#10;</run>
-                    <run fontcolor='#000000' fontsize='12'>The gun ownership and gun deaths reported are for year 2016.</run>
+                    <run fontcolor='#000000'>The gun ownership and gun deaths reported are for year 2016.</run>
                     <run>Æ&#10;</run>
                   </formatted-text>
                   <zone-style>
@@ -1659,12 +1659,12 @@
       </devicelayouts>
       <simple-id uuid='{B0C83D53-620A-4E57-8EFF-E7FC5C74E939}' />
     </dashboard>
-    <dashboard name='Gun Ownership'>
+    <dashboard name='Deaths vs Gun Ownership'>
       <style />
-      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' preset-index='1' sizing-mode='fixed' />
       <zones>
         <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
-          <zone h='84133' id='3' name='GunDeaths vs GunOwnership' w='99600' x='200' y='250'>
+          <zone h='88038' id='3' name='GunDeaths vs GunOwnership' w='99600' x='200' y='250'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
@@ -1672,16 +1672,16 @@
               <format attr='margin' value='4' />
             </zone-style>
           </zone>
-          <zone h='15367' id='5' type='text' w='99600' x='200' y='84383'>
+          <zone forceUpdate='true' h='11462' id='5' type='text' w='99600' x='200' y='88288'>
             <formatted-text>
               <run>State Wyoming excluded due to extremely high gun ownership rate (treated as outlier, 227 per 1000 people)&#10;</run>
-              <run bold='true' fontcolor='#000000' fontsize='12'>P-value:        </run>
-              <run fontcolor='#000000' fontsize='12'>&lt; 0.0001</run>
+              <run bold='true' fontcolor='#000000'>P-value:        </run>
+              <run fontcolor='#000000'>&lt; 0.0001</run>
               <run>Æ&#10;</run>
-              <run bold='true' fontcolor='#000000' fontsize='12'>R-Squared</run>
-              <run fontcolor='#000000' fontsize='12'>:  0.377</run>
+              <run bold='true' fontcolor='#000000'>R-Squared</run>
+              <run fontcolor='#000000'>:  0.377</run>
               <run>Æ&#10;</run>
-              <run fontcolor='#000000' fontsize='12'>The gun ownership and gun deaths reported are for year 2016.</run>
+              <run fontcolor='#000000'>The gun ownership and gun deaths reported are for year 2016.</run>
               <run>Æ&#10;&#10;</run>
             </formatted-text>
             <zone-style>
@@ -1714,16 +1714,16 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='15127' id='5' type='text' w='98400' x='800' y='83873'>
+                <zone forceUpdate='true' h='15127' id='5' type='text' w='98400' x='800' y='83873'>
                   <formatted-text>
                     <run>State Wyoming excluded due to extremely high gun ownership rate (treated as outlier, 227 per 1000 people)&#10;</run>
-                    <run bold='true' fontcolor='#000000' fontsize='12'>P-value:        </run>
-                    <run fontcolor='#000000' fontsize='12'>&lt; 0.0001</run>
+                    <run bold='true' fontcolor='#000000'>P-value:        </run>
+                    <run fontcolor='#000000'>&lt; 0.0001</run>
                     <run>Æ&#10;</run>
-                    <run bold='true' fontcolor='#000000' fontsize='12'>R-Squared</run>
-                    <run fontcolor='#000000' fontsize='12'>:  0.377</run>
+                    <run bold='true' fontcolor='#000000'>R-Squared</run>
+                    <run fontcolor='#000000'>:  0.377</run>
                     <run>Æ&#10;</run>
-                    <run fontcolor='#000000' fontsize='12'>The gun ownership and gun deaths reported are for year 2016.</run>
+                    <run fontcolor='#000000'>The gun ownership and gun deaths reported are for year 2016.</run>
                     <run>Æ&#10;&#10;</run>
                   </formatted-text>
                   <zone-style>
@@ -1749,16 +1749,7 @@
     </dashboard>
   </dashboards>
   <windows source-height='30'>
-    <window class='dashboard' maximized='true' name='Gun Laws'>
-      <viewpoints>
-        <viewpoint name='GunDeaths vs GunControlLaws'>
-          <zoom type='entire-view' />
-        </viewpoint>
-      </viewpoints>
-      <active id='-1' />
-      <simple-id uuid='{F44269B7-1F13-4F9C-9E65-3E72FF25B19D}' />
-    </window>
-    <window class='dashboard' name='Gun Ownership'>
+    <window class='dashboard' name='Deaths vs Gun Ownership'>
       <viewpoints>
         <viewpoint name='GunDeaths vs GunOwnership'>
           <zoom type='entire-view' />
@@ -1766,6 +1757,15 @@
       </viewpoints>
       <active id='-1' />
       <simple-id uuid='{ED645F82-44D1-4550-B558-50830B751672}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Deaths vs Gun Laws'>
+      <viewpoints>
+        <viewpoint name='GunDeaths vs GunControlLaws'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{F44269B7-1F13-4F9C-9E65-3E72FF25B19D}' />
     </window>
     <window class='worksheet' hidden='true' name='GunDeaths vs GunControlLaws'>
       <cards>
