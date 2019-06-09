@@ -1,0 +1,52 @@
+,State,Year,StateCode,Guns_PerCapita,Deaths_Rate,TotalDeaths,lawtotal,Region
+5,Alabama,2016,AL,33,20.7,1004,10,South
+14,Alaska,2016,AK,21,21.3,158,3,West
+9,Arizona,2016,AZ,26,15.3,1058,8,West
+7,Arkansas,2016,AR,27,17.2,513,11,South
+43,California,2016,CA,9,7.8,3062,104,West
+26,Colorado,2016,CO,17,14,774,30,West
+13,Connecticut,2016,CT,23,4.6,165,90,Northeast
+47,Delaware,2016,DE,5,11.4,109,39,South
+1,District of Columbia,2016,DC,69,14.3,98,0,South
+27,Florida,2016,FL,17,12.9,2664,21,South
+21,Georgia,2016,GA,18,14.8,1524,6,South
+46,Hawaii,2016,HI,6,4.1,59,79,West
+6,Idaho,2016,ID,30,13.7,230,2,West
+39,Illinois,2016,IL,11,11.3,1450,65,Midwest
+25,Indiana,2016,IN,17,14.5,959,12,Midwest
+42,Iowa,2016,IA,9,8.8,277,25,Midwest
+22,Kansas,2016,KS,18,12.7,370,4,Midwest
+20,Kentucky,2016,KY,18,16.4,729,7,South
+10,Louisiana,2016,LA,25,20.6,966,12,South
+37,Maine,2016,ME,12,8.4,112,11,Northeast
+28,Maryland,2016,MD,17,11.4,687,64,South
+48,Massachusetts,2016,MA,5,3.4,229,101,Northeast
+44,Michigan,2016,MI,7,12.1,1199,21,Midwest
+33,Minnesota,2016,MN,14,7.5,415,41,Midwest
+35,Mississippi,2016,MS,12,18.4,550,2,South
+36,Missouri,2016,MO,12,18.3,1114,7,Midwest
+15,Montana,2016,MT,21,17.3,180,4,West
+38,Nebraska,2016,NE,12,8.4,161,22,Midwest
+8,Nevada,2016,NV,26,16.4,483,15,West
+2,New Hampshire,2016,NH,48,9.2,123,10,Northeast
+45,New Jersey,2016,NJ,6,5.3,473,67,Northeast
+3,New Mexico,2016,NM,47,17.1,356,10,West
+50,New York,2016,NY,4,4.4,880,76,Northeast
+30,North Carolina,2016,NC,15,13.3,1346,30,South
+24,North Dakota,2016,ND,18,11.3,85,14,Midwest
+31,Ohio,2016,OH,15,12.8,1483,16,Midwest
+19,Oklahoma,2016,OK,18,19.3,755,9,South
+32,Oregon,2016,OR,15,12,492,35,West
+23,Pennsylvania,2016,PA,18,11.8,1514,37,Northeast
+49,Rhode Island,2016,RI,4,4.5,48,43,Northeast
+16,South Carolina,2016,SC,21,17.3,860,12,South
+11,South Dakota,2016,SD,25,11.4,98,5,Midwest
+29,Tennessee,2016,TN,15,16.7,1109,22,South
+17,Texas,2016,TX,21,11.6,3238,18,South
+12,Utah,2016,UT,24,11.7,357,11,West
+41,Vermont,2016,VT,9,11.1,69,6,Northeast
+4,Virginia,2016,VA,37,12.2,1024,13,South
+34,Washington,2016,WA,13,9.1,661,43,West
+18,West Virginia,2016,WV,19,17.3,316,18,South
+40,Wisconsin,2016,WI,11,11.1,643,23,Midwest
+0,Wyoming,2016,WY,227,16.8,98,6,West
